@@ -1,4 +1,5 @@
 CC = gcc
+
 CFLAGS = -Wall -Wextra -I../libmysyslog
 LDFLAGS = -L../libmysyslog -lmysyslog
 TARGET = libmysyslog-daemon
