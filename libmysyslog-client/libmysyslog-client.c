@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
 	int level = INFO;
 	int driver = 0;
 	int format = 0;
+	
 	char *path = NULL;
 
 	while ((opt = getopt(argc, argv, "m:l:d:f:p:")) != -1) {
