@@ -20,7 +20,6 @@ int mysyslog(const char* msg, int level, int driver, int format, const char* pat
 	time(&now);
 	char *timestamp = ctime(&now);
 	timestamp[strlen(timestamp) - 1] = '\0';
-
 	const char *level_str;
 	switch (level) {
 		case DEBUG: level_str = "DEBUG"; break;
