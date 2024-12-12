@@ -6,7 +6,6 @@ all: $(TARGET)
 
 $(TARGET): libmysyslog.o
 	$(CC) -shared -o $(TARGET) libmysyslog.o
-
 libmysyslog.o: libmysyslog.c
 	$(cc) $(CFLAGS) -c libmysyslog.c
 
