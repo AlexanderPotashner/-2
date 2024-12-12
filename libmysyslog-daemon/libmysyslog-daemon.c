@@ -27,7 +27,6 @@ void read_config(char* path, int* format, int* driver) {
 int main() {
 	signal(SIGTERM, handle_signal);
 	signal(SIGINT, handle_signal);
-
 	char path[256];
 	int format;
 	int driver;
