@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcс
 CFLAGS = -Wall -Wextra -I../libmysyslog
 LDFLAGS = -L../libmysyslog -lmysyslog
 TARGET = libmysyslog-client
