@@ -3,7 +3,6 @@ CFLAGS = -Wall -Wextra -fPIC
 TARGET = libmysyslog-json.so
 
 all: $(TARGET)
-
 $(TARGET): libmysyslog-json.o
         $(CC) -shared -o $(TARGET) libmysyslog-json.o
 
